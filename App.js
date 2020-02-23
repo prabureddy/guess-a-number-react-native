@@ -16,6 +16,12 @@ const fetchFonts = () => {
   });
 };
 
+/**
+ * TODO: this is app.js file
+ *
+ * @export
+ * @returns
+ */
 export default function App() {
   const [userNumber, setUserNumber] = useState();
   const [rounds, setRounds] = useState(0);
